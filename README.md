@@ -16,7 +16,7 @@ Provided Mockup is a sample representation of the Application Interface.
 
 ## Guidelines
 *  In the strings.xml make sure to replace YOUR_GOOGLE_MAPS_API_KEY with your own Google Maps API Key which can be obtained [here](https://developers.google.com/maps/documentation/javascript/get-api-key) 
-*  [Signed APK](https://developer.android.com/studio/publish/app-signing) It is present in the release directory.
+*  [Signed APK](https://developer.android.com/studio/publish/app-signing) is present in the release directory.
 
 
 ## TODO's
