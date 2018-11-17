@@ -1,0 +1,43 @@
+apply plugin: 'com.android.application'
+
+
+android {
+    compileSdkVersion 28
+    defaultConfig {
+        applicationId "com.angel.gooded"
+        minSdkVersion 19
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        vectorDrawables.useSupportLibrary = true
+    }
+    buildTypes {
+        release {
+            shrinkResources true
+            useProguard true
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'androidx.appcompat:appcompat:1.0.2'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.0-alpha2'
+    implementation 'com.miguelcatalan:materialsearchview:1.4.0'
+    implementation 'com.amitshekhar.android:android-networking:1.0.2'
+    implementation 'org.shredzone.commons:commons-suncalc:2.3'
+    implementation 'com.google.android.gms:play-services-location:16.0.0'
+    implementation 'com.squareup.retrofit2:retrofit:2.4.0'
+    implementation 'com.google.code.gson:gson:2.8.5'
+    implementation 'com.wdullaer:materialdatetimepicker:4.0.1'
+    implementation 'com.google.android.material:material:1.1.0-alpha01'
+    implementation 'com.luckycatlabs:SunriseSunsetCalculator:1.2'
+    implementation 'com.google.android.gms:play-services-maps:16.0.0'
+}

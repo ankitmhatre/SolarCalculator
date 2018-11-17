@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="moon_blue_dark">#0000ff</color>
+    <color name="sun_orange_dark">#ffa500</color>
+    <color name="sun_orange_faint">#9b7c45</color>
+    <color name="moon_blue_faint">#434384</color>
+</resources>

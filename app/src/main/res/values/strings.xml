@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">GoodEd</string>
+    <string name="action_settings">Settings</string>
+    <string name="bookmarks">Bookmarks</string>
+    <string name="gmt_intro">All the times are in default Timezone the device is registered in.\n You might need to re-calculate for convenience.</string>
+    <string name="maps_api_key">YOUR_GOOGLE_MAPS_API_KEY</string>
+
+</resources>
